@@ -1,8 +1,10 @@
 [tool.poetry]
-name = "flask_learning"
+name = "headlines"
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
+packages = [
+    {include = "headlines"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
