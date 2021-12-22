@@ -11,4 +11,6 @@ kill:
 run:
 	python3 -m flask run
 
+poetry-path:
+    export PATH=$PATH:/home/vladimir/.local/bin
 .PHONY: install-env build run
