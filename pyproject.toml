@@ -10,6 +10,7 @@ packages = [
 python = "^3.8"
 Flask = "^2.0.2"
 feedparser = "^6.0.8"
+urllib3 = "^1.26.7"
 
 [tool.poetry.dev-dependencies]
 
